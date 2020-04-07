@@ -1,0 +1,361 @@
+*{
+    /* font-size: 14px; */
+    font-size: 1.3vw;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.T-icon {
+    /* display: block; */
+    font-size: x-large !important;
+}
+
+.dropdown-item {
+    border-bottom: 2px solid #eee;
+}
+
+.dropdown-item:hover {
+    background-color: #ccc !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+    width: 4vw !important;
+}
+
+
+
+.news-title h3 {
+    background: #fdd504;
+    font-size: 1.25vw !important;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.two-banners img {
+    width: 100% !important;
+}
+
+
+.promo-img {
+    width: 100px !important;
+    height: 70px !important;
+}
+
+.promo h4{
+    font-size: 1.25vw !important;
+}
+
+
+
+.box-head{
+    background: url(data:image/gif;base64,R0lGODlhJQABAPABAObm5gAAACH5BAUAAAEALAAAAAAlAAEAAAIFhI+py1AAOw==) repeat-x 50% 1.1vw;
+}
+
+.box-head * {
+    font-size: 1vw !important;
+}
+
+.box-head .box-title {
+    background: #fff;
+    text-transform: uppercase;
+    color: black;
+    padding-right: 10px;
+}
+
+.box-title {
+    font-size: 1.75vw !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-title:hover,.list-phones a:hover, .box-head span:hover {
+    color: #0bbea2;
+}
+
+.list-phones a, .box-head span {
+    color: #555;
+}
+
+
+.card {
+    width: calc(100%/5) !important;
+}
+
+.card:hover{
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.card a:hover img{
+    transform: scale(1.1);
+}
+
+.product-name h4{
+    text-align: center;
+}
+
+.product-name h4 a {
+    color: black;
+    font-size: 0.9vw !important;
+
+}
+
+.product-price{
+    font: bold 0.7vw Arial,Helvetica,sans-serif;
+    color: #da1821;
+}
+
+
+/* ---------------Footer for all------------ */
+footer{
+    /* background-color: #f1f1f1; */
+    margin-bottom: 0 !important;
+}
+
+footer *{
+    font-size: 1vw !important;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .list-contact-icons i {
+    font-size: 2vw !important;
+    margin-right: 1rem !important;
+}
+
+.footer-input {
+    width: 15vw !important;
+}
+
+.footer-btn, .footer-input {
+    border-radius: 10px !important;
+
+}
+
+.go-top-btn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #f1c40f;
+    right: 30px;
+    bottom: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    border-radius: 99px;
+}
+
+.go-top-btn i {
+    font-size: 25px;
+}
+
+
+
+/*-------------------------------------- Design media queries  */
+@media (max-width: 992px){
+    /* .news-title h3 {
+      margin-bottom: 5px !important;
+    }
+    
+    .promo {
+        margin-bottom: 2px;
+    } */
+
+    .promo-img {
+        width: 90px !important;
+        height: 50px !important;
+    }
+
+    .promo h4{
+        padding-left: 10px;
+    }
+
+    .box-head * {
+    }
+    
+    .box-title {
+    }
+}
+
+@media (max-width: 768px){
+/* 
+    main {
+        margin-top: 10px;
+    }
+
+    .news-title h3 {
+      margin-bottom: 2px !important;
+
+    }
+
+      .promo {
+        margin-bottom: 2px;
+    } */
+
+      .promo-img {
+        width: 70px !important;
+        height: 40px !important;
+    }  
+
+      /* .promo h4{
+        padding-left: 10px;
+    } */
+
+    .box-head * {
+    }
+    
+    .box-title {
+    }
+    
+    /* .list-phones a {
+        margin-left: 10px;
+    } */
+    
+}
+
+@media (max-width: 576px){
+
+    /* main {
+        margin-top: 5px;
+    }
+
+    .news-title h3 {
+      margin-bottom: 2px !important;
+
+    }
+
+    .promo {
+        margin-bottom: 2px;
+    } */
+
+    .promo-img {
+        width: 40px !important;
+        height: 20px !important;
+    }  
+/* 
+    .promo h4{
+        padding-left: 1px;
+    } */
+
+    
+
+    .box-head * {
+        /* font-size: 0.75vw !important; */
+    }
+    
+    .box-title {
+    }
+    
+    /* .list-phones a {
+        margin-left: 5px;
+    } */
+}
+
+@media (width: 768px) {
+    /* .box-head {
+        background: url(data:image/gif;base64,R0lGODlhJQABAPABAObm5gAAACH5BAUAAAEALAAAAAAlAAEAAAIFhI+py1AAOw==) repeat-x 50% 10px;
+    } */
+}
+
+@media (max-width: 400px) {
+    .promo h4 {
+        font-size: 1vw !important;
+    }
+}
+
+
+
+
+/* ------------------------------------Apple-------------------- */
+
+.apple-list .carousel-inner img {
+    width: 100% !important;
+}
+
+.apple-list .brands a {
+    width: calc(100% / 5) !important;
+}
+
+.apple-list .options {
+}
+
+.apple-list .hot-text{
+    animation: changeTextColor 1.5s infinite;
+    font-size: 0.8vw !important;
+    /* animation-name: changeTextColor;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; */
+}
+
+@keyframes changeTextColor {
+    from {color: red;}
+    to {color: yellow;}
+}
+
+
+
+.apple-list .list-phones a{
+}
+
+.apple-list .list-phones a:hover {
+    animation-play-state: paused;
+}
+
+
+.options a, .options span{
+    text-decoration: none;
+    font-size: 1vw !important;
+}
+
+.apple-list .price a:hover{
+    color: #333;
+}
+
+.apple-list .list-item {
+    border:none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+
+.pros-of-store {
+}
+
+.row-pros-of-store {
+    border-top: 1px solid #d0dfd2;
+    border-bottom: 1px solid #d0dfd2;
+    background: #f1faf3;
+    margin-bottom: 0 !important;
+}
+
+.row-pros-of-store li {
+    border-right: solid 1px #d0dfd2;
+    width: calc(100%/4) !important;
+    font-size: 1.3vw !important;
+}

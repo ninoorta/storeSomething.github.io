@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<style>
+    
+.box-head {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    margin: 30px 0 15px 0;
+    background: url(data:image/gif;base64,R0lGODlhJQABAPABAObm5gAAACH5BAUAAAEALAAAAAAlAAEAAAIFhI+py1AAOw==) repeat-x 50% 15px;
+}
+
+.box-head .box-title {
+    background: #fff;
+    float: left;
+    display: block;
+    text-transform: uppercase;
+    color: black;
+    padding-right: 10px;
+}
+
+.box-title {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-title:hover, .list-phones a:hover, .more:hover {
+    color: #0bbea2;
+}
+
+.list-phones{
+    display: block;
+    float: left;
+  
+}
+
+.list-phones a {
+    margin-right: 15px;
+    color: #555;
+}
+
+
+.more {
+    float: right;
+    color: #555;
+}
+
+
+.product-list {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+}
+
+.product-list .row-item {
+    display: table-row;
+}
+
+.list-item  {
+    width: calc((100%)/5);
+    height: 250px;
+    display: table-cell;
+    border: 1px solid #eee;
+    vertical-align: top;
+    position: relative;
+}
+
+
+.list-item:hover{
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.list-item a:hover img {
+    transform: scale(1.2);
+}
+
+.box-border {
+    display: inline-block;
+}
+
+.list-item .product-price {
+    font: bold 14px Arial,Helvetica,sans-serif;
+    color: #da1821;
+    padding-left: 10px;
+
+    /* bottom: 0; */
+    /* float: left; */
+    /* width: 63%; */
+    /* position: absolute; */
+    /* left: 3px; */
+    /* bottom: 6px; */
+}
+
+.product-name{
+    margin-bottom: 10px;
+}
+
+.product-name h4 a  {
+    color: black;
+}
+
+.product-name h4 {
+    margin-top: 15px;
+    text-align: center;
+}
+</style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="category" id="apple">
+            <div class="box-container">
+                <div class="box-head">
+                    <a href="" class="box-title">Apple</a>
+                    <div class="list-phones">
+                        <a href="">Iphone 11</a>
+                        <a href="">Iphone 11 Pro</a>
+                        <a href="">Iphone 11 Pro Max</a>
+                        <a href="">Iphone Xs Max</a>
+                        <a href="">Iphone Xs</a>
+                        <a href="">Iphone X</a>
+                        <a href="">Iphone XR</a>
+                    </div>
+                    <a href="" class="more">
+                        Xem tất cả
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+                <div class="product-list">
+                    <div class="row-item">
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+                                    <img src="images/apple/iphone-7-plus.png">
+                                </a>
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone 7 Plus - 32GB - Chính hãng VN/A
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                9.990.000 ₫
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+                                    <img src="images/apple/iphone-11-pro-max.png">
+                                </a>
+    
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone 11 Pro Max - 64GB - Chính hãng VN/A
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                29.790.000 ₫
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+                                    <img src="images/apple/iphone-8-Plus.png">
+                                </a>
+    
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone 8 Plus - 64GB - Chính hãng (VN/A)
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                13.690.000 ₫
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+                                    <img src="images/apple/iphone-xr.png">
+                                </a>
+    
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone XR - 64GB - Chính hãng VN/A
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                15.590.000 ₫
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+    
+                                    <img src="images/apple/iPhone-xs-max.png">
+                                </a>
+    
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone Xs Max - 256GB - Chính hãng VN/A
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                25.990.000 ₫
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+    
+                                    <img src="images/apple/iphone-11.png">
+                                </a>
+    
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone 11 - 64GB - Chính hãng VN/A
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                19.290.000 ₫
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+    
+                                    <img src="images/apple/iphone-11-pro.png">
+                                </a>
+    
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone 11 Pro - 64GB Chính hãng VN/A
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                27.290.000 ₫
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+    
+                                    <img src="images/apple/iphone-11.png">
+                                </a>
+    
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone 11 - 128GB - Chính hãng VN/A
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                20.990.000 ₫
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+    
+                                    <img src="images/apple/iphone-11-pro-max.png">
+                                </a>
+    
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone 11 Pro Max - 256GB - Chính hãng VN/A
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                34.190.000 ₫
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="box-border">
+                                <a href="#">
+    
+                                    <img src="images/apple/iphone-11-pro.png">
+                                </a>
+    
+                                <div class="product-name">
+                                    <h4>
+                                        <a href="">
+                                            Apple iPhone 11 Pro - 256GB - Chính hãng VN/A
+                                        </a>
+                                    </h4>
+                                </div>
+    
+                            </div>
+                            <div class="product-price">
+                                31.490.000 ₫
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
